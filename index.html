@@ -6,8 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" href="css/style.css"/>
+     <link rel="stylesheet" href="css/luara.left.css"/>
+    
  <style type="text/css">
-body { margin:0 auto;width:900px;   }
+body { margin:0 auto;width:910px;   }
 	</style>
 </head>
 
@@ -16,21 +19,22 @@ body { margin:0 auto;width:900px;   }
    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.luara.0.0.1.min.js"></script>
 <div class="container-fluid">
 	<div class="row-fluid">
 		<div class="span12">
-	<img src="backgroundpic.jpg" width="1920" height="431" alt=""/> 
-	   <div class="container-fluid">
-	<div class="row-fluid">
+	<img src="BGP.jpg" alt=""/>
+<div class="container-fluid">
+  <div class="row-fluid">
 		<div class="span12">
 	
 
 <ul class="nav nav-tabs nav-justified" align="center">
 	
-		 
+		 <br><br>
 		  <li class="active">
 					<a href="#" >Home</a> 
-				</li> 
+			  </li> 
 				<li >
 					<a href="https://sysu-nercdl.github.io/people.html">People</a> 
 				</li>
@@ -41,65 +45,93 @@ body { margin:0 auto;width:900px;   }
 					<a href="https://sysu-nercdl.github.io/teaching.html">Teaching</a> 
 				</li>
 			</ul>
-				</div>
+		  </div>
 	</div>
 		</div>
 	</div>
 	
 	<div class="row-fluid">
-		<div class="span6">
+		<div class="span5">
 			<h3>
-				<em>Description</em>
+				<em>NERC-DL Introduction</em>
 			</h3>
 			<p>
-				Research in our lab focuses on two intimately connected branches of vision research: computer vision and human vision. In both fields, we are intrigued by visual functionalities that give rise to semantically meaningful interpretations of the visual world.</p>
+				&nbsp&nbsp&nbsp National Engineering Research Center of Digital Life (NERC-DL) is approved by China Ministry of Science and Technology on January 2011, and is established by Sun Yat-sen University and TCL Corporation together. </p>
 			<p>
-In <strong>computer vision</strong>, we aspire to develop intelligent algorithms that perform important visual perception tasks such as object recognition, scene categorization, integrative scene understanding, human motion recognition, material recognition, etc.</p>		
+&nbsp&nbsp&nbsp Research Center conducts deep research on computer graphics, multimedia computing,  vision and image processing, software engineering, mobile computing, visualization, machine and deep learning, etc.
+</p>		
 <p>
-In <strong>human vision</strong>, our curiosity leads us to study the underlying neural mechanisms that enable the human visual system to perform high level visual tasks with amazing speed and efficiency.
-			</p>
+ &nbsp&nbsp&nbsp The Center has published lots of high-quality papers in top rank academic journals and conferences, including ACM/IEEE Trans., ACM SIGGRAPH (Asia), ACM Multimedia, Elsevier, Springer, etc. 
+
+		  </p>
 		</div>
-		<div class="span6"  text-align="center">
-           <br><br><br>
-	        <img src="sysu.jpg" width="1500" height="721" alt="" class="img-rounded"/></div>
+		
+		<div class="span7"  text-align="center"><br><br>
+          <div class="example2">
+        <ul>
+            <li><img src="img/lunbopic/图片1.jpg" alt="1"/></li>
+            <li><img src="img/lunbopic/图片2.jpg" alt="2"/></li>
+            <li><img src="img/lunbopic/图片3.png" alt="3"/></li>
+                       <!-- <li><img src="images/4.jpg" alt="4"/></li>  -->
+            <li><img src="img/lunbopic/图片4.png" alt="4"/></li>
+            <li><img src="img/lunbopic/图片5.png" alt="5"/></li>
+        </ul>
+        
+    </div>
+    <!--Luara图片切换骨架end-->
+    <script>
+        $(function(){
+            <!--调用Luara示例-->
+            $(".example2").luara({width:"490",height:"334",interval:3700,selected:"seleted",deriction:"left"});
+
+        });
+    </script>
+          
+          
+          
+          
+          
+           </div>
 	</div>
 	<hr align="center" width="100%"  color=brown SIZE=3>
 	<div class="row-fluid">
 		<div class="span12">
 			<h3>
-				<em>Highlights</em>
+				<em>Major Research Interest</em>
 			</h3>
 			<div class="row-fluid">
 				<div class="span3">
-			    <img src="image013.png" width="250" height="121" alt=""/> </div>
+	             <img src="img/homemajorworkpic/11.jpg" alt=""/> </div>
 				<div class="span3">
-				  <img src="image003.jpg" width="250" height="94" alt=""/> </div>
+				  <img src="img/homemajorworkpic/2.jpg" alt=""/> </div>
 				<div class="span3">
-			    <img src="image012.png" width="250" height="107" alt=""/> </div>
+			      <img src="img/homemajorworkpic/31.jpg" alt=""/> </div>
 				<div class="span3">
-				
-				  <img src="image027.png" width="250" height="113" alt=""/></div>
+				  <img src="img/homemajorworkpic/44.png" alt=""/> </div>
 			</div>
 			<br />
 			<div class="row-fluid">
 				<div class="span3" align="center" >
 					
-						h3. 这是一套可视化布局系统.
+						Clothes Modeling and Simulation
+
 					
 				</div>
 				<div class="span3" align="center">
 					
-						h3. 这是一套可视化布局系统.
+						Computer Graphics and Visualization
 					
 				</div>
 				<div class="span3" align="center">
 					
-						h3. 这是一套可视化布局系统.
+						Vision and Image Processing
+
 					
 				</div>
 				<div class="span3" align="center">
 			
-						h3. 这是一套可视化布局系统.
+						Software and Mobile Computing
+
 					
 				</div>
 			</div>
@@ -113,64 +145,109 @@ In <strong>human vision</strong>, our curiosity leads us to study the underlying
 			</h3>
 			<dl>
 			
+				
 				<dt>
-					Rolex
+					The PhD candidates research report seminar,<font color="red"> 2017.09.19,In C402</font>
+
 				</dt>
-				<dd>
-					劳力士创始人为汉斯.威尔斯多夫，1908年他在瑞士将劳力士注册为商标。
-				</dd>
 				<HR align=center width="100%"  >
 				<dt>
-					Vacheron Constantin
+					Fei Wang’s paper has been accepted by <font color="red">Pacific Graphics 2017</font>
+
 				</dt>
-				<dd>
-					始创于1775年的江诗丹顿已有250年历史，
-				</dd>
-				<dd>
-					是世界上历史最悠久、延续时间最长的名表之一。
-				</dd>
+				
 				<HR align=center width="100%"  >
 				<dt>
-					IWC
+					Baoquan Zhao’s paper has been accepted by<font color="red"> ACM Multimedia 2017</font>
 				</dt>
-				<dd>
-					创立于1868年的万国表有“机械表专家”之称。
-				</dd>
+				
 				<HR align=center width="100%"  >
 				<dt>
-					Cartier
+					Langyu Li’s paper has been accepted by <font color="red">IET Image Processing</font>
+
 				</dt>
-				<dd>
-					卡地亚拥有150多年历史，是法国珠宝金银首饰的制造名家。
-				</dd>
+				
 			</dl>
 		</div>
 		
 		<div class="span6">
 			<h3>
-				<em><span>Press Coverage</span></em>
+				<em><span>Call For Papers</span></em>
 			</h3>
 			<blockquote>
-				<p>
-					github是一个全球化的开源社区.
-				</p> <small>关键词 <cite>开源</cite></small>
+				<p><a href="http://www.icpr2018.org/">
+
+					International Conference on Pattern Recognition (ICPR 2018)</a>
+
+				</p> <small>Deadline：<cite>2017.01.15</cite></small>
 			</blockquote>
 			<blockquote>
-				<p>
-					github是一个全球化的开源社区.
-				</p> <small>关键词 <cite>开源</cite></small>
+				<p><a href="http://www.icme2018.org/">
+					IEEE International Conference on Multimedia and Expo (ICME 2018) </a>
+				</p> <small>Deadline：<cite>2017.12.01</cite></small>
 			</blockquote>
 			<blockquote>
-				<p>
-					github是一个全球化的开源社区.
-				</p> <small>关键词 <cite>开源</cite></small>
+				<p><a href="http://cvpr2018.thecvf.com/">
+					IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2018)</a>
+				</p> <small>Deadline：<cite>2017.11.15</cite></small>
 			</blockquote>
 			<blockquote>
-				<p>
-					github是一个全球化的开源社区.
-				</p> <small>关键词 <cite>开源</cite></small>
+				<p><a href="https://2018.ieeeicassp.org/default.asp">
+
+					International Conference on Acoustics, Speech and Signal Processing (ICASSP 2018)
+   
+					  </a></p> <small>Deadline：<cite>2017.10.27</cite></small>
 			</blockquote>
 		</div>
+		<h3>
+				<em><span>New Publications</span></em>
+	  </h3>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<div class="row-fluid">
+			
+				<div class="span4">
+			    <img src="2017Bilateral Filter.png" alt=""/> </div>
+				<div class="span8">
+				  <p><br>
+				    <strong>Bilateral Filter</strong><br>
+				    Ba Thai, Mukhalad Al-nasrawi, Guang Deng, Zhuo Su, <br>
+				    The semi-guided bilateral filter,<br>
+  <strong><em>IET Image Processing,</em></strong> <br>
+				    Vol. 11, No. 7, 512-521, 2017, <a href="http://ieeexplore.ieee.org/document/7972767">PDF</a> </p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<br>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<div class="row-fluid">
+			
+				<div class="span4">
+			      <img src="image005.png" alt=""/> </div>
+				<div class="span8">
+				<p><br>
+					<strong>Aesthetic-based Cropping and Scaling</strong><br>
+					Yun Liang, Zhuo Su, Chuntao Wang, Dong Wang, Xiaonan Luo, 
+					<br>Optimised image retargeting using aesthetic-based cropping and scaling, <br>
+					<strong><i>IET Image Processing, </i></strong> <br>
+                    Vol. 7, No. 1, 61-69, 2013, <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6471897&tag=1">PDF</a>
+				</p>
+		    	</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	
+	
+	
+	
+		
 	</div>
 </div>
 
